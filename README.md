@@ -1,54 +1,30 @@
-# React + TypeScript + Vite
+# Memory Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to Play
+- Click on a card to reveal its number.
+- Try to find the matching pair by clicking on another card.
+- If the numbers match, the cards will remain revealed.
+- If they do not match, the cards will be hidden again after a short delay.
+- Continue until all pairs are matched to win the game!
 
-Currently, two official plugins are available:
+## To Do:
+### Render a Grid of Cards
+- Create a grid of 12 cards, each with a placeholder value (e.g., ?).
+- Ensure the cards are displayed in a 4x3 layout.
+- Expected Output: A grid of cards with placeholder values visible on the screen.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Reveal Card on Click
+- Implement functionality to reveal the number on a card when it is clicked.
+- Each card should have a unique number (pairs of numbers from 1 to 6).
+- Expected Output: Clicking a card reveals its number.
 
-## Expanding the ESLint configuration
+### Match Two Cards
+- Allow the user to click two cards.
+- If the numbers match, keep the cards revealed.
+- If the numbers do not match, hide the numbers after a short delay.
+- Expected Output: Matching cards remain revealed, while non-matching cards are hidden again.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+Style the Game
+Apply basic styling to the game board and cards.
+Ensure the cards are visually distinct when revealed, matched, or hidden.
+Expected Output: The game has a clean and visually appealing layout.
