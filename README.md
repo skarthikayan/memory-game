@@ -24,7 +24,7 @@
 - If the numbers do not match, hide the numbers after a short delay.
 - Expected Output: Matching cards remain revealed, while non-matching cards are hidden again.
 
-Style the Game
-Apply basic styling to the game board and cards.
-Ensure the cards are visually distinct when revealed, matched, or hidden.
-Expected Output: The game has a clean and visually appealing layout.
+### Style the Game
+- Apply basic styling to the game board and cards.
+- Ensure the cards are visually distinct when revealed, matched, or hidden.
+- Expected Output: The game has a clean and visually appealing layout.
