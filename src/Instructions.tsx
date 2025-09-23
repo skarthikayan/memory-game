@@ -1,7 +1,7 @@
 export default function Instructions() {
   return (
     <div className="instructions">
-      <h2>How to Play</h2>
+      <h2>HOW TO PLAY</h2>
       <ul>
         <li>Click on a card to reveal its number.</li>
         <li>Try to find the matching pair by clicking on another card.</li>

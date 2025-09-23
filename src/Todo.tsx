@@ -1,7 +1,7 @@
 export default function Todo() {
   return (
     <div className="todo">
-      <h2>To Do:</h2>
+      <h2>TASKS:</h2>
       <ul>
         <li>
           <strong>Render a Grid of Cards</strong>
