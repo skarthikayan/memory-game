@@ -1,5 +1,7 @@
 # Memory Game
 
+This is a react coding challenge used to evaluate candidates for interview process.
+
 Demo: https://skarthikayan.github.io/memory-game/
 
 ## How to Play
